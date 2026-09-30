@@ -8,4 +8,9 @@ sources:
     tables:
       - name: raw_customers
       - name: raw_orders
+        columns:
+          - name: order_id
+            data_tests:
+              - unique
+              - not_null
       - name: raw_payments
