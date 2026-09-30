@@ -34,3 +34,11 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+
+seeds:
+  dbt_learn:
+    +schema: raw
+    raw_payments:
+      +column_types:
+        amount_paise: INT64
+        created_at: TIMESTAMP
