@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: shop_raw
+    description: "Raw shop data (loaded from seeds for practice)"
+    database: data-lake-data-domain
+    schema: pratibha_sandbox_raw
+    tables:
+      - name: raw_customers
+      - name: raw_orders
+      - name: raw_payments
