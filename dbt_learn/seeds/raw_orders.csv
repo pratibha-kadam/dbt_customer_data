@@ -6,7 +6,7 @@ order_id,customer_id,order_date,status
 105,5,2025-06-12,completed
 106,6,2025-06-15,placed
 107,7,2025-06-18,completed
-108,9,2025-06-20,completed
+108,3,2025-06-20,completed
 109,8,2025-06-22,shipped
 110,2,2025-06-25,completed
 111,4,2025-06-28,placed

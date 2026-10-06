@@ -13,4 +13,6 @@ sources:
             data_tests:
               - unique
               - not_null
+          - name: order_status
+            description: '{{ doc("order_status") }}'    
       - name: raw_payments

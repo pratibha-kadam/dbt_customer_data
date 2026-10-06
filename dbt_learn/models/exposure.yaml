@@ -1,0 +1,12 @@
+version: 2
+
+exposures:
+  - name: customer_dashboard
+    type: dashboard
+    label: "Customer overview dashboard"
+    description: "Grafana dashboard showing customer counts and lifetime value"
+    depends_on:
+      - ref('dim_customers')
+    owner:
+      name: Pratibha
+      email: pratibha@gmail.com
